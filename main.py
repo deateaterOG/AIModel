@@ -30,6 +30,8 @@ class Model:
       if index in indexes:
         index = distances.index(i, index + 1)
 
+      indexes.append(index)
+
       val = self.y[index]
 
       known_values.append(val)
